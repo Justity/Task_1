@@ -1,5 +1,13 @@
-$body-color: red;
+$body-color: white;
 
 body {
-  color: $body-color;
+  backgroundcolor: $body-color;
+}
+
+.logo{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
 }
