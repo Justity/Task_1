@@ -30,7 +30,11 @@ module.exports = {
                     "css-loader",
                     // Compiles Sass to CSS
                     "sass-loader",]
-            }
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf|svg)$/i,
+                type: 'asset/resource',
+            },
         ]
     },
 

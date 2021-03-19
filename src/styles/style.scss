@@ -1,7 +1,9 @@
+@import "src/styles/font";
 $body-color: white;
 
 body {
-  backgroundcolor: $body-color;
+  background-color: $body-color;
+
 }
 
 .logo{
@@ -10,4 +12,72 @@ body {
   height: 48px;
   left: 30px;
   top: 30px;
+
+
+}
+
+
+.square_div_box{
+  width: 70px;
+  height: 610px;
+  margin-left: 142px;
+  margin-top: 146px;
+}
+
+.square{
+
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  float: left;
+
+
+  border-radius: 6px;
+}
+
+.block_color{
+  width: 281.26px;
+  height: 70px;
+  margin: 0 0 20px 0;
+  color: #1F2041;
+}
+
+.title_color{
+  padding: 7px 0 7px 40px;
+  margin: 0 0 0 0;
+  font-family: 'Conv_Montserrat-Bold', sans-serif;
+  float: left;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+p{
+  margin: 0 0 0 0;
+}
+
+.title_color_code{
+  font-family: 'Conv_Montserrat-Regular', sans-serif;
+  font-size: 19px;
+}
+
+.shade1{
+  background: #1F2041;
+}
+.shade2{
+  background: rgba(31, 32, 65, 0.75);
+}
+.shade3{
+  background: rgba(31, 32, 65, 0.5);
+}
+.shade4{
+  background: rgba(31, 32, 65, 0.25);
+}
+.shade5{
+  background: rgba(31, 32, 65, 0.05);
+}
+.shade6{
+  background: #BC9CFF;
+}
+.shade7{
+  background: #6FCF97;
 }
