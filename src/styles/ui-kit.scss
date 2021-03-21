@@ -1,0 +1,212 @@
+
+$main-color1: #1F2041;
+$main-color2: rgba(31, 32, 65, 0.75);
+$main-color3: rgba(31, 32, 65, 0.5);
+$main-color4: rgba(31, 32, 65, 0.25);
+$main-color5: rgba(31, 32, 65, 0.05);
+$main-color6: #BC9CFF;
+$main-color7: #6FCF97;
+
+
+
+
+
+
+
+
+
+.logo{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
+}
+
+.square_div_box{
+  float: left;
+  width: 281px;
+  height: 610px;
+  padding-top: 7px;
+  padding-left: 150px;
+
+}
+.title_color{
+  padding: 7px 0 7px 40px;
+  margin: 0 0 0 0;
+  float: left;
+}
+.title_color_code{
+  font-size: 19px;
+}
+
+
+.square{
+
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 6px;
+}
+
+.block_color{
+  width: 281.26px;
+  height: 70px;
+  margin: 0 0 20px 0;
+  color: #1F2041;
+}
+
+.shade1{
+  background: $main-color1;
+}
+
+.shade2{
+  background: $main-color2;
+}
+
+.shade3{
+  background: $main-color3;
+
+}
+
+.shade4{
+  background: $main-color4;
+
+}
+
+.shade5{
+  background: $main-color5;
+
+}
+
+.shade6{
+  background: $main-color6;
+}
+
+.shade7{
+  background: $main-color7;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.flexbox{
+  margin-top: 138px;
+
+  display: flex;
+
+}
+.flex_main{
+  padding-right: 2px;
+}
+.div_text_size{
+  padding-top: 8px;
+  padding-left: 416px;
+  width: 440px;
+  height: 321px;
+}
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.text_size1{
+
+  padding-bottom: 51px;
+}
+
+.text_size2{
+
+  padding-bottom: 54px;
+
+}
+
+.text_size3{
+
+  padding-bottom: 46px;
+}
+
+.text_size4{
+
+  padding-bottom: 51px;
+}
+
+.text_h1{
+  display: flex;
+}
+
+.text_h2{
+  display: flex;
+
+
+}
+
+.text_h3{
+  display: flex;
+
+
+}
+
+.text_body{
+  display: flex;
+
+
+}
+
+.hh{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-content: stretch;
+  font-family: 'Conv_Montserrat-Regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.25);
+
+}
+.hh2{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+.text_title1{
+  padding: 3px 30px 85px 8px;
+
+  font-size: 24px;
+}
+.text_title2{
+  padding: 0 30px 70px 8px;
+  font-size: 19px;
+}
+.text_title3{
+  padding: 0 30px 0 20px;
+  font-size: 12px;
+}
+.text_title4{
+  padding: 41px 30px 20px 0;
+  font-size: 14px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+  .div_text_size{
+    padding-left: 150px;
+    padding-top: 50px;
+  }
+  .flexbox{
+    display: grid;
+  }
+
+
+
+}
