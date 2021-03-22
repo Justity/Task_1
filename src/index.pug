@@ -1,14 +1,36 @@
-doctype html
-html(lang="ru")
+extends   doctype.pug
 
-    head
-
-        meta(charset = 'utf-8')
-        meta(name='viewport', content="initial-scale=1.0, width=device-width")
-        title Webpack app
+block variables
+    - var pageTitle = "TØXIN"
 
 
-    body
 
-        include blocks/UI_kit/Colors_type/index_colors
+
+    - var TEXT_FIELD1 = "TEXT FIELD"
+    - var TEXT_STATUS1 = "DEFAULT"
+    - var ph1 = "Email"
+
+
+
+
+    - var TEXT_FIELD2 = "TEXT FIELD"
+    - var TEXT_STATUS2 = "HOVER / FOCUS"
+    - var ph2 = "This is pretty awesome"
+
+
+
+
+
+    - var TEXT_FIELD3 = "DROPDOWN"
+    - var TEXT_STATUS3 = ""
+    - var ph3 = "Сколько гостей"
+
+
+
+
+    - var TEXT_FIELD4 = "MASKED TEXT FIELD"
+    - var TEXT_STATUS4 = ""
+    - var ph4 = "ДД.ММ.ГГГГ"
+
+
 

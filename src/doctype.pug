@@ -1,0 +1,47 @@
+block variables
+
+doctype html
+html(lang="ru")
+
+    head
+
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        title #{pageTitle}
+
+    body
+        .logo
+            include blocks/logo/gray_logo
+
+        .block_field_position
+            .text_field_title
+                .flex_text_field
+                    h3=  TEXT_FIELD1
+                    h3.slim= TEXT_STATUS1
+                input(placeholder = ph1 )
+
+
+            .text_field_title
+                .flex_text_field
+                    h3=  TEXT_FIELD2
+                    h3.slim= TEXT_STATUS2
+                input(placeholder = ph2 )
+
+
+            .text_field_title
+                .flex_text_field
+                    h3=  TEXT_FIELD3
+                    h3.slim= TEXT_STATUS3
+                input.pressed(placeholder = ph3 )
+
+
+            .text_field_title
+                .flex_text_field
+                    h3=  TEXT_FIELD4
+                    h3.slim= TEXT_STATUS4
+                input(placeholder = ph4 )
+
+
+
+
+
